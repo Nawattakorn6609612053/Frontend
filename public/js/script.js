@@ -6,7 +6,7 @@ function submitLogin() {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
-            'Application-Key': 'TU5167ae6c6f6728c2f9626231e3a55b9b6ea1d22e934c84f897eec8572877457c4ca5a962f1b23eb8fd58a65676ca10fe'
+            'Application-Key': 'Access token(Token Key)'
         },
         body: JSON.stringify({
             UserName : username,
